@@ -1,0 +1,35 @@
+body{
+    background: rgb(138, 212, 138);
+    text-align: center;
+    image-orientation: flip;
+}
+
+img {
+    border: 2px solid rgb(1, 36, 1);
+}
+
+img .teacher{
+    width: 190px;
+    height: 190px;
+}
+
+img .other{
+    width: 200px;
+    height: 150px;
+}
+
+img .logo{
+    width: 330px;
+    height: 150px;
+}
+
+div table th td tr{
+    display: inline-block;
+    border: 3px solid rgb(22, 78, 22);
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: white;
+}
+
