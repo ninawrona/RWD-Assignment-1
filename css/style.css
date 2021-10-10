@@ -2,6 +2,7 @@ body{
     background: rgb(138, 212, 138);
     text-align: center;
     image-orientation: flip;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 img {
@@ -33,3 +34,191 @@ div table th td tr{
     text-shadow: white;
 }
 
+#logo
+{
+    float: left;
+}
+
+/* Styling and spacing for the top title (not logo) */
+h1#home_header
+{
+    float: left;
+    clear: right;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-size: 2.2em;
+    color: rgb(70, 29, 70);
+}
+
+/* Group div for logo and top title */
+div#top_bar
+{
+    overflow: auto;
+    clear: both;
+    min-width: 800px;
+}
+
+/* Removes link underlining and sets text color */
+.bar
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* Creates box around navigation bar and sets background */
+div#nav_div
+{
+    height: 100px;
+    background-color: blue;
+    min-width: max-content;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+/* Allow centering of the navigation bar buttons */
+div.table_trick
+{
+    display: table;
+    margin: 0 auto;
+}
+
+/* Converts the vertical unordered list to horizontal elements for the navigation bar */
+/* Style for individual buttons */
+ul#nav_bar li
+{
+   display: inline;
+   font-size: 1.6em;
+   border-style: outset;
+   border-width: 10px;
+   border-color: darkblue;
+   padding: 5px;
+   padding-left: 10px;
+   margin-right: 12px;
+   border-radius: 8px;
+   position: relative;
+   /* Unordered list put in an indent, so this is a manual removal */
+   right: 15px;
+   
+}
+
+/* Remove the list style and move the buttons away from the top of the background */
+ul#nav_bar 
+{
+    min-width: 100%;
+    list-style: none;
+    padding-top: 20px;
+}
+
+
+
+
+/* Styling each block with the respective text */
+div#campus
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 500px;
+    overflow: auto;
+    float: left;
+}
+
+div#learning
+{
+    width: 500px;
+}
+
+/* Aligning the elements inside the above blocks */
+div#campus img
+{
+    border: solid 5px black;
+}
+
+div#campus a
+{
+    float: left;
+}
+
+/* Styling each block with the respective text */
+div#campus
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 800px;
+    overflow: auto;
+    float: left;
+    clear: right;
+}
+
+div#learning
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 800px;
+    overflow: auto;
+    float: left;
+    clear: left;
+}
+
+/* Aligning the elements inside the above blocks */
+div#campus img
+{
+    border: solid 5px black;
+}
+
+div#campus a
+{
+    float: left;
+}
+
+div#campus p
+{
+    padding: 15px;
+    width: auto;
+    position: relative;
+    /* Padding workaround */
+    width: 750px;
+    left: 15px;
+}
+
+div#learning img
+{
+    float: right;
+    border: solid 5px black;
+}
+
+div#learning p
+{
+    float: left;
+    width: 530px;
+    padding: 10px;
+}
+
+div#footer_div{
+    clear: left;
+}
+
+ul#footer_bar
+{
+    min-width: 100%;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#footer_bar li
+{
+    display: inline;
+    font-size: 1.6em;
+
+    padding: 5px;
+    padding-left: 10px;
+    margin-right: 12px;
+    border-radius: 8px;
+    position: relative;
+    /* Unordered list put in an indent, so this is a manual removal */
+    right: 15px;
+}
