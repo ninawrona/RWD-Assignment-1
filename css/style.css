@@ -1,3 +1,4 @@
+/*setting backgoumd and body features*/
 body{
     background: rgb(138, 212, 138);
     text-align: center;
@@ -5,10 +6,12 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*making borders for all images*/
 img {
     border: 2px solid rgb(1, 36, 1);
 }
 
+/*setting the size of the images*/
 img .teacher{
     width: 190px;
     height: 190px;
@@ -19,19 +22,55 @@ img .other{
     height: 150px;
 }
 
-img .logo{
-    width: 330px;
-    height: 150px;
+#logo{
+    float: left;
+    width: 200px;
+    height: auto;
 }
 
-div table th td tr{
-    display: inline-block;
+/*setting the features for the table with Main purpose ect.*/
+table, th, td, tr{
     border: 3px solid rgb(22, 78, 22);
-    text-align: center;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+table .DMA{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.DMA th ,.DMA td,.DMA tr{
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 95%;
     color: black;
     text-shadow: white;
+}
+
+.DMA th h1, .DMA td h2{
+    text-align: center;
+}
+
+.DMA th, .DMA td{
+    width: 300px;
+    height: auto;
+    text-align: start;
+}
+
+div .tableAndImage{
+    display: inline-block;
+    overflow: auto;
+
+}
+
+
+/*making div for the teacher's part of the webside*/
+div .teacher{
+    display: inline;
+    overflow: auto;
 }
 
 #logo
