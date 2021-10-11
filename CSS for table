@@ -1,0 +1,65 @@
+.table, .table td, .table th{
+    margin-left:auto;
+    margin-right:auto;
+    border-style:outset;
+    border-collapse:collapse;
+    border-width: 2px;
+    border-color: rgb(98, 179, 87) ;
+    size: 500px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+
+
+.table{
+    width:85%
+}
+
+
+
+.center{
+   text-align: center;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+   background-color: rgba(0, 163, 109, 0.664);
+}
+.sdj{
+    background-color: rgba(100, 199, 143, 0.582);
+    height:40px;
+    text-align: center;
+}
+.rwd{
+    background-color:rgba(128, 128, 0, 0.76);height:40px;
+    text-align: center;
+}
+.ws{
+    background-color: rgba(3, 192, 3, 0.753);height:40px;
+    text-align: center;
+}
+.sep{
+    background-color: rgba(153, 205, 50, 0.664);height:40px;
+    text-align: center;
+}
+.dma{
+    background-color: rgba(95, 158, 160, 0.719); height:40px;
+    text-align: center;
+}
+.emptySlots{
+    background-color:rgb(1, 150, 100);
+    height:40px;
+text-align: center;
+}
+.daysOfTheWeek{
+    background-color: rgba(0, 163, 109, 0.5);
+    
+    height:60px;
+    text-align: center;
+}
+.hours{
+    background-color:rgba(0, 163, 109, 0.877);height:40px;
+    text-align: center;
+}
+.lonelyBox{
+    background-color: rgba(0, 163, 109, 0.664);height:40px;
+    text-align: center;
+}
