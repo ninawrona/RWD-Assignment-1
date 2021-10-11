@@ -23,6 +23,7 @@ img .other{
 }
 
 #logo{
+    border: 0px;
     float: left;
     width: 200px;
     height: auto;
