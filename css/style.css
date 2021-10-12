@@ -1,9 +1,27 @@
 /*setting backgoumd and body features*/
 body{
     background: rgb(138, 212, 138);
-    text-align: center;
-    image-orientation: flip;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px blanchedalmond;
+}
+
+#DMA{
+width: 3000px;
+}
+  
+h1#header {
+    margin-left: 202px;
+    font-size: 50px;
+    text-shadow: 0 4px 4px honeydew;
+    background-color: rgb(228, 217, 217);
+}
+
+.main p{
+    font-size: 20px;
+    margin-left: auto;
+    text-shadow: 0 4px 4px honeydew;
+    /*background-color: rgb(228, 217, 217);*/
 }
 
 /*making borders for all images*/
@@ -33,14 +51,16 @@ img .other{
 table.DMA,.DMA th,.DMA td,.DMA tr{
     border: 3px solid rgb(22, 78, 22);
     border-collapse: collapse;
-    margin-top: 50px;
-    margin-left: 5px;
+    margin-top: auto;
+    margin-left: auto;
 }
 
 table.DMA{
-    display: inline-block;
+   /* display: inline-block;*/
     width: auto;
     height: auto;
+    float: left;
+    position: relative;
 }
 
 .DMA th ,.DMA td,.DMA tr{
@@ -61,16 +81,42 @@ table.DMA{
     text-align: start;
 }
 
-.tableAndImage{
-    display: inline-block;
-    overflow: auto;
+.noBorder img{
+    vertical-align: top;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
 }
 
+td.noBorder{
+    border: 3px solid rgb(138, 212, 138);
+    
+}
+
+audio{
+    overflow: auto;
+    clear: left;
+    float: left;
+}
 
 /*making div for the teacher's part of the webside*/
-div .teacher{
-    display: inline;
-    overflow: auto;
+div.teacher{
+
+    clear: left;
+}
+
+.teacher figcaption{
+    margin-top: 50px;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+}
+
+.teacher img{
+    position: relative;
+    clear: left;
+    float: left;
 }
 
 #logo
