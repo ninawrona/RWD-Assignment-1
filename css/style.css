@@ -311,3 +311,24 @@ ul#footer_bar li
     /* Unordered list put in an indent, so this is a manual removal */
     right: 15px;
 }
+
+.us td
+{
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+    border-style: none;
+}
+
+.us
+{
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.us tr
+{
+    border-style: none;
+}
