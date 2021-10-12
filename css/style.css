@@ -27,6 +27,8 @@ h1#header {
 /*making borders for all images*/
 img {
     border: 2px solid rgb(1, 36, 1);
+    width: 200px;
+    height: auto;
 }
 
 /*setting the size of the images*/
@@ -61,6 +63,7 @@ table.DMA{
     height: auto;
     float: left;
     position: relative;
+    background-color: darkseagreen;
 }
 
 .DMA th ,.DMA td,.DMA tr{
@@ -91,6 +94,7 @@ table.DMA{
 
 td.noBorder{
     border: 3px solid rgb(138, 212, 138);
+    background-color: rgb(138, 212, 138);
     
 }
 
@@ -306,25 +310,4 @@ ul#footer_bar li
     position: relative;
     /* Unordered list put in an indent, so this is a manual removal */
     right: 15px;
-}
-
-.us td
-{
-    width: 300px;
-    height: 300px;
-    border-collapse: collapse;
-    border-style: none;
-}
-
-.us
-{
-    border-style: none;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.us tr
-{
-    border-style: none;
 }
