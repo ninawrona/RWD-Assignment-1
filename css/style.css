@@ -5,7 +5,8 @@ body{
     color: black;
     text-shadow: 1px 1px 1px blanchedalmond;
 }
-  
+
+/* Styling for header text */
 h1#header {
     margin-left: 202px;
     font-size: 50px;
@@ -62,6 +63,7 @@ table.courses{
     background-color: darkseagreen;
 }
 
+/* Schedule table styling */
 .courses th ,.courses td ,.courses tr{
     width: auto;
     height: auto;
@@ -78,6 +80,7 @@ p.mainPurpose{
     vertical-align: middle;
 }
 
+/* Aligning the top of the schedule table */
 .courses th h1, .courses td h2{
     position: relative;
     text-align: center;
@@ -88,6 +91,7 @@ p.mainPurpose{
     position: relative;
 }
 
+/* Picture to the right of the course description tables */
 .noBorder img{
     vertical-align: top;
     margin-left: 50px;
@@ -96,12 +100,14 @@ p.mainPurpose{
     position: relative;
 }
 
+/* Matching the elements right of the course description tables to the background to make it appear invisible */
 td.noBorder{
     border: 3px solid rgb(138, 212, 138);
     background-color: rgb(138, 212, 138);
     
 }
 
+/* Audio element to play music */
 audio{
     overflow: auto;
     clear: left;
@@ -113,6 +119,7 @@ div.teacher{
     clear: left;
 }
 
+/* Teachers' names*/
 .teacher figcaption{
     margin-top: 50px;
     position: relative;
@@ -260,6 +267,7 @@ div#footer_div{
     background-color: rgb(81, 148, 81);
 }
 
+/* Footer sytling */
 ul#footer_bar
 {
     min-width: 100%;
@@ -282,6 +290,7 @@ ul#footer_bar li
     right: 15px;
 }
 
+/* Table for contact us page to align elements */
 .us td
 {
     width: 300px;
@@ -304,7 +313,7 @@ ul#footer_bar li
 }
 
 
-
+/* Styling for schedule table */
 .table, .table td, .table th{
     margin-left:auto;
     margin-right:auto;
@@ -331,6 +340,8 @@ ul#footer_bar li
    background-color: rgba(76, 76, 218, 0.726);
    
 }
+
+/* Courses within schedule table */
 .sdj{
     background-color: rgba(100, 199, 143, 0.582);
     height:40px;
@@ -357,16 +368,22 @@ ul#footer_bar li
     height:40px;
 text-align: center;
 }
+
+/* Column headers with days of the week */
 .daysOfTheWeek{
     background-color: rgba(0, 163, 109, 0.5);
     
     height:60px;
     text-align: center;
 }
+
+/* Row headers with hours of the day */
 .hours{
     background-color:rgba(0, 163, 109, 0.877);height:40px;
     text-align: center;
 }
+
+/* Empty box at the top left of the table */
 .lonelyBox{
     background-color: rgba(0, 163, 109, 0.664);height:40px;
     text-align: center;
