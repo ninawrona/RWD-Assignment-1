@@ -5,12 +5,13 @@ body{
     color: black;
     text-shadow: 1px 1px 1px blanchedalmond;
 }
-  
+
+/* Styling for header text */
 h1#header {
     margin-left: 202px;
     font-size: 50px;
     text-shadow: 0 4px 4px honeydew;
-    background-color: rgb(228, 217, 217);
+    background-color: rgba(76, 76, 218, 0.726);
 }
 
 .main p{
@@ -62,12 +63,13 @@ table.courses{
     background-color: darkseagreen;
 }
 
+/* Schedule table styling */
 .courses th ,.courses td ,.courses tr{
     width: auto;
     height: auto;
     font-size: x-large;
     vertical-align: top;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 95%;
     color: black;
     text-shadow: white;
@@ -78,6 +80,7 @@ p.mainPurpose{
     vertical-align: middle;
 }
 
+/* Aligning the top of the schedule table */
 .courses th h1, .courses td h2{
     position: relative;
     text-align: center;
@@ -88,6 +91,7 @@ p.mainPurpose{
     position: relative;
 }
 
+/* Picture to the right of the course description tables */
 .noBorder img{
     vertical-align: top;
     margin-left: 50px;
@@ -96,12 +100,14 @@ p.mainPurpose{
     position: relative;
 }
 
+/* Matching the elements right of the course description tables to the background to make it appear invisible */
 td.noBorder{
     border: 3px solid rgb(138, 212, 138);
     background-color: rgb(138, 212, 138);
     
 }
 
+/* Audio element to play music */
 audio{
     overflow: auto;
     clear: left;
@@ -110,10 +116,10 @@ audio{
 
 /*making div for the teacher's part of the webside*/
 div.teacher{
-
     clear: left;
 }
 
+/* Teachers' names*/
 .teacher figcaption{
     margin-top: 50px;
     position: relative;
@@ -258,13 +264,16 @@ div#learning p
 
 div#footer_div{
     clear: left;
+    background-color: rgb(81, 148, 81);
 }
 
+/* Footer sytling */
 ul#footer_bar
 {
     min-width: 100%;
     list-style: none;
     padding-top: 20px;
+    background-color: rgb(81, 148, 81);
 }
 
 ul#footer_bar li
@@ -281,6 +290,7 @@ ul#footer_bar li
     right: 15px;
 }
 
+/* Table for contact us page to align elements */
 .us td
 {
     width: 300px;
@@ -303,7 +313,7 @@ ul#footer_bar li
 }
 
 
-
+/* Styling for schedule table */
 .table, .table td, .table th{
     margin-left:auto;
     margin-right:auto;
@@ -312,7 +322,7 @@ ul#footer_bar li
     border-width: 2px;
     border-color: rgb(98, 179, 87) ;
     size: 500px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 
 }
@@ -326,10 +336,12 @@ ul#footer_bar li
 
 .center{
    text-align: center;
-   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-   background-color: rgba(0, 163, 109, 0.664);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgba(76, 76, 218, 0.726);
    
 }
+
+/* Courses within schedule table */
 .sdj{
     background-color: rgba(100, 199, 143, 0.582);
     height:40px;
@@ -356,16 +368,22 @@ ul#footer_bar li
     height:40px;
 text-align: center;
 }
+
+/* Column headers with days of the week */
 .daysOfTheWeek{
     background-color: rgba(0, 163, 109, 0.5);
     
     height:60px;
     text-align: center;
 }
+
+/* Row headers with hours of the day */
 .hours{
     background-color:rgba(0, 163, 109, 0.877);height:40px;
     text-align: center;
 }
+
+/* Empty box at the top left of the table */
 .lonelyBox{
     background-color: rgba(0, 163, 109, 0.664);height:40px;
     text-align: center;
