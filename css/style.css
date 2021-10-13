@@ -159,7 +159,7 @@ div#top_bar
 div#nav_div
 {
     height: 100px;
-    background-color: blue;
+    background-color: rgb(81, 148, 81);
     min-width: max-content;
     margin: 0px;
     padding: 0px;
@@ -182,6 +182,7 @@ ul#nav_bar li
    border-style: outset;
    border-width: 10px;
    border-color: darkblue;
+   background-color: rgba(76, 76, 218, 0.726);
    padding: 5px;
    padding-left: 10px;
    margin-right: 12px;
@@ -200,15 +201,12 @@ ul#nav_bar
     padding-top: 20px;
 }
 
-
-
-
 /* Styling each block with the respective text */
 div#campus
 {
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
+    border: ridge 5px darkblue;
+    background-color: rgba(76, 76, 218, 0.726);
+    text-shadow: none;
     width: 500px;
     overflow: auto;
     float: left;
@@ -216,37 +214,9 @@ div#campus
 
 div#learning
 {
-    width: 500px;
-}
-
-/* Aligning the elements inside the above blocks */
-div#campus img
-{
-    border: solid 5px black;
-}
-
-div#campus a
-{
-    float: left;
-}
-
-/* Styling each block with the respective text */
-div#campus
-{
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    width: 800px;
-    overflow: auto;
-    float: left;
-    clear: right;
-}
-
-div#learning
-{
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
+    border: ridge 5px darkblue;
+    background-color: rgba(76, 76, 218, 0.726);
+    text-shadow: none;
     width: 800px;
     overflow: auto;
     float: left;
@@ -256,12 +226,7 @@ div#learning
 /* Aligning the elements inside the above blocks */
 div#campus img
 {
-    border: solid 5px black;
-}
-
-div#campus a
-{
-    float: left;
+    border: outset 5px darkblue;
 }
 
 div#campus p
@@ -277,14 +242,14 @@ div#campus p
 div#learning img
 {
     float: right;
-    border: solid 5px black;
+    border: outset 5px darkblue;
 }
 
 div#learning p
 {
     float: left;
     width: 530px;
-    padding: 10px;
+    padding: 15px;
 }
 
 div#footer_div{
