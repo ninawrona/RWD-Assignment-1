@@ -5,10 +5,6 @@ body{
     color: black;
     text-shadow: 1px 1px 1px blanchedalmond;
 }
-
-#DMA{
-width: 3000px;
-}
   
 h1#header {
     margin-left: 202px;
@@ -50,14 +46,14 @@ img .other{
 }
 
 /*setting the features for the table with Main purpose ect.*/
-table.DMA,.DMA th,.DMA td,.DMA tr{
+table.courses,.courses th,.courses td,.courses tr{
     border: 3px solid rgb(22, 78, 22);
     border-collapse: collapse;
     margin-top: auto;
     margin-left: auto;
 }
 
-table.DMA{
+table.courses{
    /* display: inline-block;*/
     width: auto;
     height: auto;
@@ -66,22 +62,30 @@ table.DMA{
     background-color: darkseagreen;
 }
 
-.DMA th ,.DMA td,.DMA tr{
+.courses th ,.courses td ,.courses tr{
+    width: auto;
+    height: auto;
     font-size: x-large;
+    vertical-align: top;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 95%;
     color: black;
     text-shadow: white;
 }
 
-.DMA th h1, .DMA td h2{
+p.mainPurpose{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.courses th h1, .courses td h2{
+    position: relative;
     text-align: center;
 }
 
-.DMA th, .DMA td{
-    width: 300px;
-    height: auto;
-    text-align: start;
+.courses li{
+    text-align: left;
+    position: relative;
 }
 
 .noBorder img{
