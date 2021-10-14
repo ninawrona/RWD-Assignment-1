@@ -247,7 +247,6 @@ ul#nav_bar
 div#campus
 {
     position: relative;
-    left: 200px;
     border: 3px solid rgb(22, 78, 22);
     background-color: darkseagreen;
     width: 800px;
@@ -258,7 +257,6 @@ div#campus
 div#learning
 {
     position: relative;
-    left: 200px;
     border: 3px solid rgb(22, 78, 22);
     background-color: darkseagreen;
     width: 800px;
