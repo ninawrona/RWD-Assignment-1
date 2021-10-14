@@ -103,11 +103,12 @@ p.mainPurpose{
     position: relative;
 }
 
-/* Matching the elements right of the course description tables to the background to make it appear invisible */
-td.noBorder{
-    border: 3px solid rgb(138, 212, 138);
+/* feature hidden makes part of the border invisible */
+td.noBorder, table.noBorder{
+    border-style: hidden;
     background-color: rgb(138, 212, 138);
-    
+    padding: 0px;
+    border-left: 3px solid rgb(22, 78, 22);
 }
 
 /* Audio element to play music */
@@ -304,28 +305,33 @@ div#learning p
 }
 
 div#footer_div{
-    clear: left;
+    clear: both;
     background-color: rgb(81, 148, 81);
+    height: 100px;
 }
 
-/* Footer sytling */
+/* Footer styling */
 ul#footer_bar
 {
-    min-width: 100%;
+    min-width: 50%;
     list-style: none;
     padding-top: 20px;
-    background-color: rgb(81, 148, 81);
+}
+
+/* made footer pictures smaller */
+#footer_bar img{
+width: 100px;
+height: auto;
+border-radius: 20px;
 }
 
 ul#footer_bar li
 {
     display: inline;
-    font-size: 1.6em;
 
     padding: 5px;
     padding-left: 10px;
     margin-right: 12px;
-    border-radius: 8px;
     position: relative;
     /* Unordered list put in an indent, so this is a manual removal */
     right: 15px;
