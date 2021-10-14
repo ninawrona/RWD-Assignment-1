@@ -7,12 +7,14 @@ body{
 }
 
 /* Styling for header text */
+/* Styling done together at .title_sub
 h1#header {
     margin-left: 202px;
     font-size: 50px;
     text-shadow: 0 4px 4px honeydew;
     background-color: rgba(76, 76, 218, 0.726);
 }
+*/
 
 .main p{
     font-size: 20px;
@@ -44,6 +46,7 @@ img .other{
     float: left;
     width: 200px;
     height: auto;
+    margin-bottom: 40px;
 }
 
 /*setting the features for the table with Main purpose ect.*/
@@ -139,6 +142,7 @@ div.teacher{
 }
 
 /* Styling and spacing for the top title (not logo) */
+/* Commented out because we are styling all headers together
 h1#home_header
 {
     float: left;
@@ -148,6 +152,7 @@ h1#home_header
     font-size: 2.2em;
     color: rgb(70, 29, 70);
 }
+*/
 
 /* Group div for logo and top title */
 div#top_bar
@@ -155,6 +160,33 @@ div#top_bar
     overflow: auto;
     clear: both;
     min-width: 800px;
+}
+
+/* Styling title and subtitle together */
+div.title_sub
+{
+    min-width: 800px;
+    float: left;
+    background-color: rgba(76, 76, 218, 0.726);
+    padding: 15px;
+    height: 75px;
+    min-width: 75%;
+}
+
+/* Size and style for header text */
+h1#header
+{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Styling for subtitles underneath header */
+p.subtitle
+{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
 }
 
 /* Removes link underlining and sets text color */
@@ -214,29 +246,39 @@ ul#nav_bar
 /* Styling each block with the respective text */
 div#campus
 {
-    border: ridge 5px darkblue;
-    background-color: rgba(76, 76, 218, 0.726);
-    text-shadow: none;
-    width: 500px;
+    position: relative;
+    left: 200px;
+    border: 3px solid rgb(22, 78, 22);
+    background-color: darkseagreen;
+    width: 800px;
     overflow: auto;
     float: left;
 }
 
 div#learning
 {
-    border: ridge 5px darkblue;
-    background-color: rgba(76, 76, 218, 0.726);
-    text-shadow: none;
+    position: relative;
+    left: 200px;
+    border: 3px solid rgb(22, 78, 22);
+    background-color: darkseagreen;
     width: 800px;
     overflow: auto;
     float: left;
     clear: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+
 }
 
 /* Aligning the elements inside the above blocks */
 div#campus img
 {
+    /* Commented out so it takes the border from the img selector
     border: outset 5px darkblue;
+    */
+    float: left;
 }
 
 div#campus p
@@ -244,15 +286,16 @@ div#campus p
     padding: 15px;
     width: auto;
     position: relative;
+    padding: 20px;
     /* Padding workaround */
-    width: 750px;
+    width: 735px;
     left: 15px;
 }
 
 div#learning img
 {
     float: right;
-    border: outset 5px darkblue;
+
 }
 
 div#learning p
