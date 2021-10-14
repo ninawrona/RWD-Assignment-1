@@ -315,7 +315,7 @@ ul#footer_bar
 {
     min-width: 50%;
     list-style: none;
-    padding-top: 20px;
+    vertical-align: middle;
 }
 
 /* made footer pictures smaller */
