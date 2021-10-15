@@ -307,7 +307,7 @@ div#learning p
 div#footer_div{
     clear: both;
     background-color: rgb(81, 148, 81);
-    height: 100px;
+    height: 135px;
 }
 
 /* Footer styling */
@@ -436,4 +436,6 @@ text-align: center;
     text-align: center;
 }
 
-
+#copyright{
+    text-align: center;
+}
