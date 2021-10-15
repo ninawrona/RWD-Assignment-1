@@ -1,14 +1,33 @@
 /*setting backgoumd and body features*/
 body{
     background: rgb(138, 212, 138);
-    text-align: center;
-    image-orientation: flip;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px blanchedalmond;
+}
+
+/* Styling for header text */
+/* Styling done together at .title_sub
+h1#header {
+    margin-left: 202px;
+    font-size: 50px;
+    text-shadow: 0 4px 4px honeydew;
+    background-color: rgba(76, 76, 218, 0.726);
+}
+*/
+
+.main p{
+    font-size: 20px;
+    margin-left: auto;
+    text-shadow: 0 4px 4px honeydew;
+    /*background-color: rgb(228, 217, 217);*/
 }
 
 /*making borders for all images*/
 img {
     border: 2px solid rgb(1, 36, 1);
+    width: 200px;
+    height: auto;
 }
 
 /*setting the size of the images*/
@@ -23,54 +42,104 @@ img .other{
 }
 
 #logo{
+    border: 0px;
     float: left;
     width: 200px;
     height: auto;
+    margin-bottom: 40px;
 }
 
 /*setting the features for the table with Main purpose ect.*/
-table, th, td, tr{
+table.courses,.courses th,.courses td,.courses tr{
     border: 3px solid rgb(22, 78, 22);
     border-collapse: collapse;
-    margin-top: 50px;
-    margin-left: 5px;
+    margin-top: auto;
+    margin-left: auto;
 }
 
-table .DMA{
-    display: inline-block;
+table.courses{
+   /* display: inline-block;*/
     width: auto;
     height: auto;
+    float: left;
+    position: relative;
+    background-color: darkseagreen;
 }
 
-.DMA th ,.DMA td,.DMA tr{
+/* Schedule table styling */
+.courses th ,.courses td ,.courses tr{
+    width: auto;
+    height: auto;
     font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    vertical-align: top;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 95%;
     color: black;
     text-shadow: white;
 }
 
-.DMA th h1, .DMA td h2{
+p.mainPurpose{
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Aligning the top of the schedule table */
+.courses th h1, .courses td h2{
+    position: relative;
     text-align: center;
 }
 
-.DMA th, .DMA td{
-    width: 300px;
-    height: auto;
-    text-align: start;
+.courses li{
+    text-align: left;
+    position: relative;
 }
 
-div .tableAndImage{
-    display: inline-block;
+/* Picture to the right of the course description tables */
+.noBorder img{
+    vertical-align: top;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* feature hidden makes part of the border invisible */
+td.noBorder, table.noBorder{
+    border-style: hidden;
+    background-color: rgb(138, 212, 138);
+    padding: 0px;
+    border-left: 3px solid rgb(22, 78, 22);
+}
+
+/* Audio element to play music */
+audio{
     overflow: auto;
-
+    clear: left;
+    float: left;
 }
-
 
 /*making div for the teacher's part of the webside*/
-div .teacher{
-    display: inline;
-    overflow: auto;
+div.teacher{
+    clear: left;
+}
+
+.left, .right{
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Teachers' names*/
+.teacher figcaption{
+    margin-top: 50px;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+}
+
+.teacher img{
+    position: relative;
+    clear: left;
+    float: left;
 }
 
 #logo
@@ -79,6 +148,7 @@ div .teacher{
 }
 
 /* Styling and spacing for the top title (not logo) */
+/* Commented out because we are styling all headers together
 h1#home_header
 {
     float: left;
@@ -88,6 +158,7 @@ h1#home_header
     font-size: 2.2em;
     color: rgb(70, 29, 70);
 }
+*/
 
 /* Group div for logo and top title */
 div#top_bar
@@ -95,6 +166,33 @@ div#top_bar
     overflow: auto;
     clear: both;
     min-width: 800px;
+}
+
+/* Styling title and subtitle together */
+div.title_sub
+{
+    min-width: 800px;
+    float: left;
+    background-color: rgba(76, 76, 218, 0.726);
+    padding: 15px;
+    height: 75px;
+    min-width: 75%;
+}
+
+/* Size and style for header text */
+h1#header
+{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Styling for subtitles underneath header */
+p.subtitle
+{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
 }
 
 /* Removes link underlining and sets text color */
@@ -109,7 +207,7 @@ div#top_bar
 div#nav_div
 {
     height: 100px;
-    background-color: blue;
+    background-color: rgb(81, 148, 81);
     min-width: max-content;
     margin: 0px;
     padding: 0px;
@@ -132,6 +230,7 @@ ul#nav_bar li
    border-style: outset;
    border-width: 10px;
    border-color: darkblue;
+   background-color: rgba(76, 76, 218, 0.726);
    padding: 5px;
    padding-left: 10px;
    margin-right: 12px;
@@ -150,67 +249,39 @@ ul#nav_bar
     padding-top: 20px;
 }
 
-
-
-
 /* Styling each block with the respective text */
 div#campus
 {
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    width: 500px;
-    overflow: auto;
-    float: left;
-}
-
-div#learning
-{
-    width: 500px;
-}
-
-/* Aligning the elements inside the above blocks */
-div#campus img
-{
-    border: solid 5px black;
-}
-
-div#campus a
-{
-    float: left;
-}
-
-/* Styling each block with the respective text */
-div#campus
-{
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
+    position: relative;
+    border: 3px solid rgb(22, 78, 22);
+    background-color: darkseagreen;
     width: 800px;
     overflow: auto;
     float: left;
-    clear: right;
 }
 
 div#learning
 {
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
+    position: relative;
+    border: 3px solid rgb(22, 78, 22);
+    background-color: darkseagreen;
     width: 800px;
     overflow: auto;
     float: left;
     clear: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+
 }
 
 /* Aligning the elements inside the above blocks */
 div#campus img
 {
-    border: solid 5px black;
-}
-
-div#campus a
-{
+    /* Commented out so it takes the border from the img selector
+    border: outset 5px darkblue;
+    */
     float: left;
 }
 
@@ -219,45 +290,163 @@ div#campus p
     padding: 15px;
     width: auto;
     position: relative;
+    padding: 20px;
     /* Padding workaround */
-    width: 750px;
+    width: 735px;
     left: 15px;
 }
 
 div#learning img
 {
     float: right;
-    border: solid 5px black;
+
 }
 
 div#learning p
 {
     float: left;
     width: 530px;
-    padding: 10px;
+    padding: 15px;
 }
 
 div#footer_div{
-    clear: left;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 0px;
+    clear: both;
+    background-color: rgb(81, 148, 81);
+    height: 135px;
 }
 
+/* Footer styling */
 ul#footer_bar
 {
-    min-width: 100%;
+    min-width: 50%;
     list-style: none;
-    padding-top: 20px;
+    vertical-align: middle;
+}
+
+/* made footer pictures smaller */
+#footer_bar img{
+width: 100px;
+height: auto;
+border-radius: 20px;
+background-color: rgba(100, 199, 143, 0.582);
+padding: 5px;
 }
 
 ul#footer_bar li
 {
     display: inline;
-    font-size: 1.6em;
 
     padding: 5px;
     padding-left: 10px;
     margin-right: 12px;
-    border-radius: 8px;
     position: relative;
     /* Unordered list put in an indent, so this is a manual removal */
     right: 15px;
+}
+
+/* Table for contact us page to align elements */
+.us td
+{
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+    border-style: none;
+}
+
+.us
+{
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.us tr
+{
+    border-style: none;
+}
+
+
+/* Styling for schedule table */
+.table, .table td, .table th{
+    margin-left:auto;
+    margin-right:auto;
+    border-style:outset;
+    border-collapse:collapse;
+    border-width: 2px;
+    border-color: rgb(98, 179, 87) ;
+    size: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+
+.table{
+    width:85%;
+    margin-top: 40px;
+}
+
+
+
+.center{
+   text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgba(76, 76, 218, 0.726);
+   
+}
+
+/* Courses within schedule table */
+.sdj{
+    background-color: rgba(100, 199, 143, 0.582);
+    height:40px;
+    text-align: center;
+}
+.rwd{
+    background-color:rgba(128, 128, 0, 0.76);height:40px;
+    text-align: center;
+}
+.ws{
+    background-color: rgba(3, 192, 3, 0.753);height:40px;
+    text-align: center;
+}
+.sep{
+    background-color: rgba(153, 205, 50, 0.664);height:40px;
+    text-align: center;
+}
+.dma{
+    background-color: rgba(95, 158, 160, 0.719); height:40px;
+    text-align: center;
+}
+.emptySlots{
+    background-color:rgb(1, 150, 100);
+    height:40px;
+text-align: center;
+}
+
+/* Column headers with days of the week */
+.daysOfTheWeek{
+    background-color: rgba(0, 163, 109, 0.5);
+    
+    height:60px;
+    text-align: center;
+}
+
+/* Row headers with hours of the day */
+.hours{
+    background-color:rgba(0, 163, 109, 0.877);height:40px;
+    text-align: center;
+}
+
+/* Empty box at the top left of the table */
+.lonelyBox{
+    background-color: rgba(0, 163, 109, 0.664);height:40px;
+    text-align: center;
+}
+
+#copyright{
+    text-align: center;
 }
