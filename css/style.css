@@ -6,16 +6,6 @@ body{
     text-shadow: 1px 1px 1px blanchedalmond;
 }
 
-/* Styling for header text */
-/* Styling done together at .title_sub
-h1#header {
-    margin-left: 202px;
-    font-size: 50px;
-    text-shadow: 0 4px 4px honeydew;
-    background-color: rgba(76, 76, 218, 0.726);
-}
-*/
-
 .main p{
     font-size: 20px;
     margin-left: auto;
@@ -83,8 +73,13 @@ p.mainPurpose{
     vertical-align: middle;
 }
 
+p.purposeHeader{
+    font-size: 30px;
+}
+
+
 /* Aligning the top of the schedule table */
-.courses th h1, .courses td h2{
+.courses th p.purposeHeader, .courses td h2{
     position: relative;
     text-align: center;
 }
