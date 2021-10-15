@@ -1,6 +1,6 @@
 /*setting backgoumd and body features*/
 body{
-    background: rgb(138, 212, 138);
+    background: rgb(188, 204, 188);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     text-shadow: 1px 1px 1px blanchedalmond;
@@ -105,8 +105,8 @@ p.mainPurpose{
 
 /* feature hidden makes part of the border invisible */
 td.noBorder, table.noBorder{
+    background: rgb(188, 204, 188);
     border-style: hidden;
-    background-color: rgb(138, 212, 138);
     padding: 0px;
     border-left: 3px solid rgb(22, 78, 22);
 }
