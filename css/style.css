@@ -123,6 +123,11 @@ div.teacher{
     clear: left;
 }
 
+.left, .right{
+    display: inline-block;
+    margin: 10px;
+}
+
 /* Teachers' names*/
 .teacher figcaption{
     margin-top: 50px;
@@ -305,6 +310,9 @@ div#learning p
 }
 
 div#footer_div{
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 0px;
     clear: both;
     background-color: rgb(81, 148, 81);
     height: 100px;
