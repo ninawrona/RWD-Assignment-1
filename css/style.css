@@ -315,7 +315,7 @@ div#footer_div{
     margin-bottom: 0px;
     clear: both;
     background-color: rgb(81, 148, 81);
-    height: 100px;
+    height: 135px;
 }
 
 /* Footer styling */
@@ -444,4 +444,6 @@ text-align: center;
     text-align: center;
 }
 
-
+#copyright{
+    text-align: center;
+}
